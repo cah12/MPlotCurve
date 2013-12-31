@@ -9,7 +9,7 @@ MPlotCurve is an abstract class derive via multiple inheritance from QObject and
 
 Create a project and run it as follow: (a) As is (i.e. with certain code lines commented out); (b) Uncomment line 21 and run; (c) Uncomment line 28 and run; (d) Comment line 21, uncomment line 22 and run; ...get the picture... (e) Uncomment line 30 and 31 and run...setTranslate() receives, as argument, a QPointF tha represents the absolute translation.
 
-Tested with QT 5.1.1, Qwt 6.1.0.
+Tested with Qt 5.1.1, Qwt 6.1.0.
 
 
 
