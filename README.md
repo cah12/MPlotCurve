@@ -7,15 +7,7 @@ When you apply a subclass of QwtCurveFitter to a QwtPlotCurve you achieve a desi
 
 MPlotCurve is an abstract class derive via multiple inheritance from QObject and QwtPlotCurve. Applications must subclass MPlotCurve and implement the pure virtual function rawData(). 
 
-Create a project and run it as follow...
-    a) As is (i.e. with certain code lines commented out)
-    b) Uncomment line 21 and run
-    c) Uncomment line 28 and run
-    d) Comment line 21, uncomment line 22 and run
-    
-    get the picture...
-    
-    e) Uncomment line 30 and 31 and run...setTranslate() receive, as argument, a QPointF tha represents the absolute translation.
+Create a project and run it as follow: (a) As is (i.e. with certain code lines commented out); (b) Uncomment line 21 and run; (c) Uncomment line 28 and run; (d) Comment line 21, uncomment line 22 and run; ...get the picture... (e) Uncomment line 30 and 31 and run...setTranslate() receive, as argument, a QPointF tha represents the absolute translation.
 
 
 
