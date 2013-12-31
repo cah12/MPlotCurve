@@ -27,8 +27,8 @@ int main(int argc, char *argv[])
 
     //curve.setSuperimposed(false); //Only when one of the above Fitting is set, will see the effect of this line setSuperimposed(false) be seen.
 
-    curve.setTranslate(QPointF(20.0, 30.0)); //translation is absolute. Two successive calls is equivalent to the last call.
-    curve.setTranslate(QPointF(28.0, 38.0));
+    //curve.setTranslate(QPointF(20.0, 30.0)); //translation is absolute. Two successive calls is equivalent to the last call.
+    //curve.setTranslate(QPointF(28.0, 38.0));
 
     p.show();
     return a.exec();
